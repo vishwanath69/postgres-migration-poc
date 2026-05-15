@@ -10,3 +10,5 @@ UPDATE users SET username = 'test';
 -- Bad Query 4: LOWER() on email prevents index usage
 SELECT * FROM users
 WHERE LOWER(email) = 'john@test.com';
+-- Additional bad query
+DELETE FROM users WHERE 1=1;
