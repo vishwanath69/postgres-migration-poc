@@ -1,0 +1,7 @@
+-- V1: Create the users table
+CREATE TABLE users (
+    id         SERIAL PRIMARY KEY,
+    username   VARCHAR(100)  NOT NULL,
+    email      VARCHAR(200)  NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
