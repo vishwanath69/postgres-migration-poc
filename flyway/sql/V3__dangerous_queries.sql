@@ -15,4 +15,7 @@ DELETE FROM users WHERE 1=1;
 
 -- AI review testing
 
+SELECT * FROM users
+WHERE username LIKE '%admin%';
+
 
