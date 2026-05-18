@@ -12,3 +12,7 @@ SELECT * FROM users
 WHERE LOWER(email) = 'john@test.com';
 -- Additional bad query
 DELETE FROM users WHERE 1=1;
+
+-- AI review testing
+
+

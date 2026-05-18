@@ -6,4 +6,4 @@ target/
 
 # Ignore IDE files
 .idea/
-.vscode/settings.json
+.vscode/settings.jsongit
